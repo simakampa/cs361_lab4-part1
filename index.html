@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 9 Lab | Talking to the Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <!-- Task 1: Grab & Change targets -->
+    <h1 id="main-heading">Welcome to the Page</h1>
+    <p id="main-paragraph">This paragraph's color will change on load.</p>
+  </header>
+
+  <hr>
+
+  <!-- Task 2: Click Counter -->
+  <section id="counter-section">
+    <h2>Click Counter</h2>
+    <button id="count-btn">Click Me</button>
+    <span id="count-display">0</span>
+  </section>
+
+  <hr>
+
+  <!-- Task 3: Toggle a Theme -->
+  <section id="theme-section">
+    <h2>Dark Mode</h2>
+    <button id="theme-btn">Dark Mode</button>
+  </section>
+
+  <hr>
+
+  <!-- Task 4: Build a List from Data / Task 5: Live Search Filter -->
+  <section id="list-section">
+    <h2>Courses</h2>
+
+    <!-- Task 5: text input placed above the list, as instructed -->
+    <input type="text" id="search-input" placeholder="Type to filter courses..." />
+
+    <ul id="course-list"></ul>
+    <button id="add-course-btn">Add New Course</button>
+  </section>
+
+  <hr>
+
+  <!-- Task 6: Validate a Form -->
+  <section id="form-section">
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+      <label for="name-input">Name:</label>
+      <input type="text" id="name-input" name="name" />
+      <br><br>
+      <label for="email-input">Email:</label>
+      <input type="text" id="email-input" name="email" />
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
